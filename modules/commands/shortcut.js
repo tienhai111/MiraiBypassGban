@@ -1,4 +1,4 @@
-﻿module.exports.config = {
+module.exports.config = {
 	name: "shortcut",
 	version: "1.0.0",
 	hasPermssion: 0,

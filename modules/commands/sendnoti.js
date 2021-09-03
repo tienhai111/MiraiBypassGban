@@ -27,7 +27,7 @@ module.exports.run = async ({ api, event, args, getText }) => {
 	for (const idThread of allThread) {
 		if (isNaN(parseInt(idThread)) || idThread == event.threadID) ""
 		else {
-			api.sendMessage("» Notification «\n\n" + args.join(" ") , idThread, (error, info) => {
+			api.sendMessage("» THÔNG BÁO TỪ ADMIN ĐẸP TRAI DUONG QUANG SANG «\n\n" + args.join(" ") , idThread, (error, info) => {
 				if (error) cantSend.push(idThread);
 			});
 			count++;
